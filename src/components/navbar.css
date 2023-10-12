@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu a{
+  text-decoration: none;
+  color:rgb(0, 157, 255);
+  padding: 7px;
+  transition-duration: .5s;
+  font-weight: 700;
+}
+
+.menu a:hover{
+/* background-color: gray; */
+text-shadow: 0px 0px 5px rgb(0, 76, 255);
+-webkit-text-stroke: 1px red;
+scale: 1.2;
+}
+
+@media (width>600px) {
+  .menu{
+    width: 60%;
+  }
+}
